@@ -1,0 +1,332 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    background-color: #f0f0f0;
+}
+
+#main{
+    width: 100%;
+    height: 100vh;
+}
+.top{
+    width: 100%;
+    height: 50vh;
+    background-image: url("https://images.unsplash.com/photo-1459767129954-1b1c1f9b9ace?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-size: cover;
+    background-position: center;
+}
+
+.text{
+    color: black;
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.bottom{
+    position: fixed;
+    left: 0; 
+    bottom: 0; 
+    width: 100%; 
+    height: 6vh;
+    background-color: #131720; 
+    padding: 10px 20px; 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    /*border-radius: 60px;*/
+}
+
+.bottom{
+   
+        display: flex; 
+        justify-content: center; 
+        align-items: center; 
+        text-size-adjust: 20px;
+        font-size: medium;
+      
+}
+.contact{
+    display: flex; 
+  align-items: center; 
+
+}
+.contact p{
+     margin: 0;  
+     color: white;
+     
+}
+
+.icons{
+    margin-left: 10px;
+    color: white;
+    text-decoration: none;
+
+}
+
+.icons a {
+    color: inherit; 
+    text-decoration: none; 
+  }
+  
+
+.icons i:hover { 
+    color: #007bff; 
+    transition: color 0.2s ease-in-out; 
+}
+
+.dropdown-menu{
+    
+    display: none;
+    border-radius: 5px;
+    position: absolute;
+    /*background-color: #0e2028;*/
+    min-width: 100px;
+    text-align: center;
+
+}
+.dropdown-menu a{
+    
+    color: black;
+    passing : 11px 15px;
+    text-decoration: none;
+    display: block;
+    font-size: medium;
+    
+}
+.dropdown-menu a:hover{
+
+    background-color: gray;
+} 
+
+.dropdown:hover .dropdown-menu{
+    display: block;
+}
+
+
+.dropdown-button{
+ 
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 13px;
+    font-size: 16px;
+    border: none;
+    border-radius: 50px;
+
+
+}
+.signin{
+    float: right;
+}
+
+.dropdown{
+    float: right;
+    margin-right: 20px;
+    margin-top: 0%;
+    position: relative; 
+    display: inline-block;
+}
+
+.sign-in-button {
+    background-color: black; 
+    color: white;
+    padding: 10px 24px;
+    border: none; 
+    cursor: pointer; 
+    font-size: 16px;
+    border-radius: 5px; 
+    transition: background-color 0.3s ease; 
+    margin-right: 5px;
+}
+
+.sign-in-button:hover {
+    background-color: blue; 
+}
+
+.bottom-content{
+    display: flex;
+    width: 100%;
+    min-height: 40vh;
+}
+
+.middle-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    float: right;
+    bottom: 10%;
+    margin-top: 120px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    text-decoration: solid;
+}
+.middle-text form {
+    display: flex; 
+    gap: 10px; 
+}
+
+.middle-text input[type="text"] {
+    padding: 8px;
+    font-size: 16px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+}
+
+.middle-text button {
+    padding: 10px 20px;
+    font-size: 16px; 
+    background-color: black; 
+    color: white; 
+    border: none;
+    border-radius: 4px; 
+    cursor: pointer; 
+}
+
+.middle-text button:hover {
+    background-color: blue; 
+}
+
+
+.b1{
+    width: 30%;
+    min-height: 45vh;
+    background-image: url("https://images.unsplash.com/photo-1473091534298-04dcbce3278c?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-size: cover;
+    background-position: center;
+}
+
+.b1 p{
+    text-align: center;
+    padding: 15px;
+}
+
+.b2{
+    width: 30%;
+    min-height: 45vh;
+    background-image: url("https://images.unsplash.com/photo-1510832303954-cc30cbf2b8db?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-position: center;
+    background-size: cover;
+    float: left;
+   
+}
+
+.b3{
+    width: 40%;
+    min-height: 45vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start; 
+    gap: 20px; 
+   
+}
+
+
+.b3 .card{
+    float: right;
+}
+
+.b3 .more{
+    background-image: url("https://images.unsplash.com/photo-1604147706283-d7119b5b822c?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    width: auto;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    width: 60%;
+    height: 45vh;
+}
+
+ 
+.card {
+    background-color: white; 
+    background-image: url("https://images.unsplash.com/photo-1510674485131-dc88d96369b4?q=80&w=1898&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-size: cover;
+    background-position: center;
+    padding: 15px;
+    margin-left: 0; 
+    border-radius: 10px; 
+    float: right; 
+    height: 45vh;
+    position: relative;
+    padding-top: 30px;
+    width: 40%;
+
+    
+  }
+  
+  .card h3 {
+    margin-top: 0; 
+  }
+  
+  .card h3{
+    text-align: center;
+    font-size: medium;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+    
+}
+  
+  
+  .card-button {
+    background-color: black; 
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer; 
+    position: absolute;
+    bottom: 10px;
+    float: right;
+    
+  }
+  
+
+  .card-button:hover{
+    background-color: blue;
+  }
+
+  @media(max-width:700px){
+      .overlay{
+        width: 100%;
+        margin-left: initial;
+      }
+  }
+
+  @media(max-width:500px) {
+      .text{
+        flex-direction: column;
+        align-items: flex-start;
+      }
+      .text h1{
+        font-size: 5vh;
+      }
+
+      .middle-text{
+        flex-direction: column;
+       align-items: flex-start;
+      }
+
+      .bottom-content{
+        flex-direction: column;
+        align-items: flex-start;
+      }
+
+    .b1{
+        width: 100%;
+        min-height: 30vh;
+      }
+    .b2{
+        width: 100%;
+        min-height: 30vh;
+        background-position: left;
+      }
+    .b3{
+        width: 100%;
+      }
+  }
